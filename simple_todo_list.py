@@ -44,7 +44,8 @@ def processCommand(command: str):
         case _:
             print("Invalid command")
 
-while running:
-    command: str = takeCommand()
-    processCommand(command)
+if __name__ == '__main__':
+    while running:
+        command: str = takeCommand()
+        processCommand(command)
 
