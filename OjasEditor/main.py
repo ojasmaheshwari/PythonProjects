@@ -50,7 +50,7 @@ def openFile():
                 file.name,
                 file_content
             ))
-            bt_cross = ctk.CTkButton(file_buffer, text="❌", corner_radius=0, width=40, fg_color='#ab242d', hover_color='#7d292f', command= lambda file_buffer : (
+            bt_cross = ctk.CTkButton(file_buffer, text="❌", corner_radius=0, width=40, fg_color='#ab242d', hover_color='#7d292f', command= lambda : (
                 closeBuffer(file_buffer)
             ))
             
